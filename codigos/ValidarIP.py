@@ -18,5 +18,5 @@ def validar_ip(ip: str): # Feito!
             return False
 
 
-        if int(num) < 0 or int(num) > 255: # >>>Todo<<< octeto deve ser um número inteiro que esteja entre 0(00000000) e 255(11111111)
+        if if eh_inteiro < 0 or eh_inteiro > 255: # >>>Todo<<< octeto deve ser um número inteiro que esteja entre 0(00000000) e 255(11111111)
             return False
